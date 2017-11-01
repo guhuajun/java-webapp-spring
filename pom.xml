@@ -6,8 +6,6 @@
     <groupId>org.springframework</groupId>
     <artifactId>java-webapp-spring</artifactId>
     <version>0.1.0</version>
-    <packaging>war</packaging>
-	<name>Sample Spring Boot App</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -39,8 +37,7 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <build>
-        <finalName>ROOT</finalName>
+    <build>       
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
